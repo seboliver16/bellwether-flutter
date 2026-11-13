@@ -1,0 +1,67 @@
+{
+  "key": "bw_pk_0123456789abcdefghijklmn",
+  "sent_at": "2026-11-10T09:00:04.000Z",
+  "sdk": "flutter/0.1.0",
+  "events": [
+    {
+      "id": "01a1c4af-8680-7a10-8f3c-5b2e9d4c1a01",
+      "name": "$session_start",
+      "time": "2026-11-10T09:00:00.000Z",
+      "anon_id": "6c1e4f2a-9b3d-4e7a-8c5f-0d2b7a9e1f43",
+      "user_id": null,
+      "session_id": "9e0b3c7d-2f4a-4b8e-a1d6-5c3f8e2b7a90",
+      "props": {},
+      "context": { "app_version": "2.3.0", "build": "45", "os": "Android", "device": "phone", "locale": "en-GB" }
+    },
+    {
+      "id": "01a1c4af-8680-7a11-9d42-0c7b6e8f2a13",
+      "name": "$first_open",
+      "time": "2026-11-10T09:00:00.000Z",
+      "anon_id": "6c1e4f2a-9b3d-4e7a-8c5f-0d2b7a9e1f43",
+      "user_id": null,
+      "session_id": "9e0b3c7d-2f4a-4b8e-a1d6-5c3f8e2b7a90",
+      "props": {},
+      "context": { "app_version": "2.3.0", "build": "45", "os": "Android", "device": "phone", "locale": "en-GB" }
+    },
+    {
+      "id": "01a1c4af-877a-7215-a1b3-6d9e0f4c2b25",
+      "name": "$app_open",
+      "time": "2026-11-10T09:00:00.250Z",
+      "anon_id": "6c1e4f2a-9b3d-4e7a-8c5f-0d2b7a9e1f43",
+      "user_id": null,
+      "session_id": "9e0b3c7d-2f4a-4b8e-a1d6-5c3f8e2b7a90",
+      "props": {},
+      "context": { "app_version": "2.3.0", "build": "45", "os": "Android", "device": "phone", "locale": "en-GB" }
+    },
+    {
+      "id": "01a1c4af-8a6a-73c0-b7e8-2f1a9c5d3e37",
+      "name": "$identify",
+      "time": "2026-11-10T09:00:01.002Z",
+      "anon_id": "6c1e4f2a-9b3d-4e7a-8c5f-0d2b7a9e1f43",
+      "user_id": "u_123",
+      "session_id": "9e0b3c7d-2f4a-4b8e-a1d6-5c3f8e2b7a90",
+      "props": {},
+      "context": { "app_version": "2.3.0", "build": "45", "os": "Android", "device": "phone", "locale": "en-GB" }
+    },
+    {
+      "id": "01a1c4af-8c5c-7458-8c06-4a3b7e1f9d49",
+      "name": "$screen",
+      "time": "2026-11-10T09:00:01.500Z",
+      "anon_id": "6c1e4f2a-9b3d-4e7a-8c5f-0d2b7a9e1f43",
+      "user_id": "u_123",
+      "session_id": "9e0b3c7d-2f4a-4b8e-a1d6-5c3f8e2b7a90",
+      "props": {},
+      "context": { "app_version": "2.3.0", "build": "45", "os": "Android", "device": "phone", "locale": "en-GB", "screen": "SignUp" }
+    },
+    {
+      "id": "01a1c4af-92b0-75e1-9a7d-1e6c3b8f0a5b",
+      "name": "signup_completed",
+      "time": "2026-11-10T09:00:03.120Z",
+      "anon_id": "6c1e4f2a-9b3d-4e7a-8c5f-0d2b7a9e1f43",
+      "user_id": "u_123",
+      "session_id": "9e0b3c7d-2f4a-4b8e-a1d6-5c3f8e2b7a90",
+      "props": { "plan": "pro", "seats": 3, "trial": true },
+      "context": { "app_version": "2.3.0", "build": "45", "os": "Android", "device": "phone", "locale": "en-GB", "screen": "SignUp" }
+    }
+  ]
+}

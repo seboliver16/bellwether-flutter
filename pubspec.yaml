@@ -1,0 +1,25 @@
+# Bellwether's analytics SDK for Flutter apps (docs/analytics-architecture.md §4). Not on pub.dev yet.
+name: bellwether
+description: Bellwether's analytics SDK for Flutter apps. Sends the events your code tracks, plus a few of its own, to Bellwether.
+version: 0.1.0
+homepage: https://bellwetherlabs.dev
+publish_to: none # installed from this repository by tag until it's on pub.dev
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The one POST and GET to Ingest, with a timeout, on iOS and Android alike.
+  http: ^1.2.0
+  # Where the queue lives: the app's support folder, which only a plugin can name on iOS and Android.
+  path_provider: ^2.1.0
+  # The app's version and build for every event's context, which Dart can't read without a plugin.
+  package_info_plus: ^10.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
